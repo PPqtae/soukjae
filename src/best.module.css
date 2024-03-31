@@ -1,0 +1,48 @@
+.loginfrom {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
+
+.logo {
+    /* Additional styling for the logo if needed */
+  }
+  .searchContainer {
+    position: relative; /* 추가: 아이콘과 텍스트 입력 상대적으로 배치 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchIcon {
+    position: absolute; 
+    width: 20px; 
+    left: 17px;
+    height: 20px; 
+    transform: translateY(-50%);
+    margin-right: 5px; 
+  }
+
+  .searchInput {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    width: 300px;
+    padding-left: 35px;
+    margin-top: 1px; 
+    font-size: 16px;
+  } 
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+}
+
+.searchButton {
+    
+  } 
+
